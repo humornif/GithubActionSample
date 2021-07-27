@@ -3,7 +3,7 @@ name: Sample Build
 on:
 	push:
 		branches:
-			- main
+			[ main ]	
 jobs:
 	build:
  
