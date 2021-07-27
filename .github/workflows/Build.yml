@@ -2,7 +2,9 @@ name: Sample Build
 
 on:
 	push:
-		branches: [main]
+	branches:
+		- main
+
 jobs:
 	build:
  
